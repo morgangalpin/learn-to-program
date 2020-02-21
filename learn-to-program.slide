@@ -1,0 +1,21 @@
+Learn to Program
+In Go
+19:00 20 Feb 2020
+Tags: programming, intro, course, golang
+
+Morgan Galpin
+morgangalpin@gmail.com
+
+* Computer Programming
+
+It's valuable skill that aids in understanding how software works and more generally, helps with problem solving.
+
+There are many different programming languages, but the same concepts apply. The syntax is a little different in each language, but the ideas are more or less the same. Like in natural languages, they each have a word for "person", but the specific word in each language may be different.
+
+* Sections
+
+- [[/variables/variables.slide][Variables]]
+- Output
+- Conditionals
+- Loops
+- Functions

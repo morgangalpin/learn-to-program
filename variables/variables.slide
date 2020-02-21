@@ -1,0 +1,89 @@
+Learn to Program - Variables
+In Go
+19:00 20 Feb 2020
+Tags: programming, intro, course, golang, variables
+
+Morgan Galpin
+morgangalpin@gmail.com
+
+* Variables
+
+Variables are a way to store a value, then use it later.
+
+They are like making a note for yourself, then reading your note later so you can remember.
+
+* Types
+
+Every variable has a type. The type is used by the compiler to enforce what kinds of things can be done to a variable of that type.
+
+For instance, integers can have math operations applied to them, but strings, or text, cannot. Strings can have their letters changed to upper case, but this can't be done to number types.
+
+Variables of different types are internally represented differently which means that a variable of one type can't simply be changed so that it can hold a value of a different type.
+
+Some of the types in Go are:
+
+- string
+- int
+- float
+
+* Declaration
+
+Variables must be declared before they can be used. They must also be declared with their type, though they don't have to be assigned a value when they're declared.
+
+Declare a variable with a type, but without a value:
+
+	name type
+
+e.g.s
+
+	num int
+	name string
+	pi float
+
+If a variable is declared without a value assigned, the compiler assigns `nil` or an equivalent `0` value.
+
+* Declaration with Explicit Type
+
+Declare a variable with a type, but assign a value:
+
+	name type = value
+
+e.g.s
+
+	num int = 3
+	name string = "Joel"
+	pi float = 3.14
+
+The type of the value assigned to the variable must match the type of the variable. This is true when declaring it as well as later when using the variable.
+
+* Declaration with Implicit Type
+
+Declare a variable but let the compiler figure out the type using the value:
+
+	name := value
+e.g.s
+
+	num := 3
+	name := "Joel"
+	pi := 3.14
+
+Using the type of the value assigned to the variable, the compiler figures out the type of the variable.
+
+* Usage
+
+Variables can be assigned a value, then later that value can be read from the variable.
+e.g.
+
+	num int
+	num = 3
+	// num has value 3
+
+	num = num + 2
+	// num now has value 5
+
+* Print Out the Value
+
+A good way to see the value of a variable is to simply print it out to the screen. Press the *Run* button to try it yourself. Feel free to edit the code then run it again to see what it does.
+
+.play -edit variables.go /^func main\(\) {$/,/^}$/
+
