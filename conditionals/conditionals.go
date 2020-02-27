@@ -19,6 +19,8 @@ func main() {
 	} else {
 		if likes == "flowers" {
 			fmt.Println("Billy isn't a goat but likes flowers.")
+		} else if likes == "grass" {
+			fmt.Println("Billy isn't a goat but likes grass.")
 		} else {
 			fmt.Println("Billy isn't a goat and doesn't like flowers.")
 		}
